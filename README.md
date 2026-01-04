@@ -13,7 +13,7 @@ It’s intended as a foundation for a 2D platformer (player controller + basic c
 
 ---
 
-## 2) Script descriptions (what each script does)
+## 2) Script descriptions 
 
 ### MainCharacterController.cs
 Controls the player character’s core gameplay actions:
