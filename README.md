@@ -79,6 +79,9 @@ A simple camera-follow script:
   1. Create an empty child object on Player called `GroundCheck`
   2. Position it at the player’s feet (at the bottom of the collider).
   3. Drag it into the script field.
+- **CameraTracker (Transform)** *(required)*
+  1. Create an empty child object on Player called `CameraTracker`
+  2. Position it at ahead of the player and slightly above(adjust to your desired tracking location).
 - **Ground Layer (LayerMask)** *(required)*
   - Select the `Ground` layer.
 - **Ground Check Radius (float)**
@@ -97,11 +100,7 @@ A simple camera-follow script:
 1. Select your **Main Camera**
 2. Attach **`FollowCam.cs`**
 3. Assign the **Target** field:
-   - Drag your Player’s transform into the `target` slot.
-
-> Optional improvement: Add a Z lock so the camera stays at a constant distance:
-> - In practice, keep camera `z` at something like `-10` in 2D.
-> - Your current script preserves z because it only updates x/y.
+   - Drag your Player’s **Camera Tracker** transform into the `target` slot.
 
 ---
 
