@@ -60,14 +60,14 @@ A simple camera-follow script:
 ---
 
 ### B) Player GameObject setup (MainCharacterController)
-1. **Create / select your Player GameObject**
+1. **Create / select your Player GameObject, 2D Square or Capsule**
 2. Add required components:
    - **Rigidbody2D**
      - Recommended: `Gravity Scale` > 0 
      - `Body Type`: Dynamic
      - Enable `Freeze Rotation Z` to prevent tipping.
    - **Collider2D** (BoxCollider2D or CapsuleCollider2D)
-   - **SpriteRenderer**
+   - **SpriteRenderer** Add a desired image if wanting to. 
 3. Add the script:
    - Attach **`MainCharacterController.cs`** to the Player object.
 
